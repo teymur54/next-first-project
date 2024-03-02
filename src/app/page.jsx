@@ -11,8 +11,8 @@ const Home = () => {
           incididunt tempor aute id.
         </p>
         <div className={styles.buttons}>
-          <button>Learn more</button>
-          <button>Contact</button>
+          <button className={styles.button}>Learn more</button>
+          <button className={styles.button}>Contact</button>
         </div>
         <div className={styles.brands}>
           <Image src="/brands.png" alt="" fill className={styles.brandImg} />

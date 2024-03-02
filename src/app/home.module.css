@@ -11,11 +11,29 @@
 }
 
 .title {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .desc {
   font-style: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  padding: 20px;
+  min-width: 120px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:first-child {
+  background-color: var(--btn);
+  color: var(--text);
 }
 
 .brands {
